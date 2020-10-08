@@ -1,0 +1,25 @@
+.navBlock{
+    background-color:  rgb(85, 85, 167);
+    height: 100vh;
+    width: 15%;
+    min-width: 200px;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.NavPoint{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.activeNav{
+    color: rgb(179, 148, 82);
+}

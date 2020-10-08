@@ -1,0 +1,8 @@
+.loginBl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loginBl button {
+    margin-left: 10px;
+}

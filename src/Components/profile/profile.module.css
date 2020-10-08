@@ -1,0 +1,92 @@
+.profileInfo{
+    padding: 30px;
+    display: flex;
+
+    background: -webkit-linear-gradient(180deg, rgb(108, 161, 207) 20%, rgb(255, 255, 255) 20%);
+    background: -moz-linear-gradient(180deg, rgb(108, 161, 207) 20%, rgb(255, 255, 255) 20%);
+    background: linear-gradient(180deg, rgb(108, 161, 207) 20%, rgb(255, 255, 255) 20%);
+}
+.avaBlock{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+.aboutMe{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+}
+.aboutMe p{
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.profileBlockInfo{
+    display: flex;
+    
+    flex-direction: column;
+    width: 70%;
+}
+.NameStatus{
+    display: flex;
+    align-items: center;
+}
+.name{
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.ContactsJobsInfo{
+    display: flex;
+    justify-content: flex-start;
+}
+.headerInfo{
+    background-color: rgba(128, 128, 128, 0.226);
+    padding: 10px;
+}
+.jobsInfo{
+    width: 50%;
+
+}
+.jobInfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+}
+.jobInfo p {
+    font-weight: 700;
+    margin-right: 10px;
+}
+.contactsInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+.contactsInfoItems{
+    display: flex;
+    align-items: center;
+    margin: -10px;
+    padding-left: 10px;
+}
+.contactsInfoItems p {
+    width: 30%;
+    font-weight: 700;
+}
+.contactLinc{
+    color: black
+}
